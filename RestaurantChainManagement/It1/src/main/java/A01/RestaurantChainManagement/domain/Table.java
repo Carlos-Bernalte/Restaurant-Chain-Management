@@ -11,6 +11,7 @@ public class Table {
 	private int state;
 	private Transaction[] TransactionList;
 	private TableDAO tableDAO;	
+	private test;
 	
 	public Table() {
 		setTableDAO(new TableDAO());
